@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+}
+.App{
+    width: 60%;
+    height: 300px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    box-shadow: 0 0 20px goldenrod;
+}
+.countDown{
+    width: 90%;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(10, 10, 10);
+}
+.counts{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgb(10, 10, 10);
+    color: rgb(219, 138, 17);
+}
+.counts h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
